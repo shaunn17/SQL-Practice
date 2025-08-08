@@ -23,7 +23,7 @@ def bubble_sort(arr):
         if swapped == False:
             break
     return arr
-sample_array = [64, 34, 25, 12, 22, 11, 90]
+sample_array = [64, 34, 25, 12, 22, 11, 90, 2]
 sorted_array = bubble_sort(sample_array)            
 
 print(f"Sorted array: {sorted_array}")
